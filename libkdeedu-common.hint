@@ -1,0 +1,5 @@
+category: KDE
+requires:
+external-source: libkdeedu
+sdesc: "KDE education libraries (runtime data)"
+ldesc: "KDE education libraries"

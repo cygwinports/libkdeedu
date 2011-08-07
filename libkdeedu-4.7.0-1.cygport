@@ -1,0 +1,7 @@
+inherit kde4
+
+
+PKG_NAMES="libkdeedu4 libkdeedu-common libkdeedu-devel"
+libkdeedu4_CONTENTS="usr/bin/*-4.dll"
+libkdeedu_common_CONTENTS="etc/postinstall/ usr/share/"
+libkdeedu_devel_CONTENTS="usr/include/ usr/lib/"

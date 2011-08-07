@@ -1,0 +1,5 @@
+category: KDE
+requires: libkdeedu-common libgcc1 libkdecore5 libQtCore4 libQtXml4 libstdc++6
+external-source: libkdeedu
+sdesc: "KDE education libraries (runtime)"
+ldesc: "KDE education libraries"
