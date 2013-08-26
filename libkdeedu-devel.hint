@@ -1,5 +1,0 @@
-category: KDE
-requires: libkdeedu4 libkdecore5-devel libQtCore4-devel libQtXml4-devel
-external-source: libkdeedu
-sdesc: "KDE education libraries (development)"
-ldesc: "KDE education libraries"
