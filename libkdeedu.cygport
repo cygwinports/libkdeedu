@@ -1,14 +1,13 @@
 inherit kde4
 
 NAME="libkdeedu"
-VERSION=4.14.3
+VERSION=14.12.3
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="KDE education libraries"
 
-PKG_NAMES="libkdeedu4 libkdeedu-common libkdeedu-devel"
-libkdeedu4_REQUIRES="libkdeedu-common"
-libkdeedu4_CONTENTS="usr/bin/*-4.dll"
-libkdeedu_common_CONTENTS="etc/postinstall/ usr/share/"
+PKG_NAMES="libkdeedu4 libkdeedu-devel"
+libkdeedu4_REQUIRES="kdeedu-data"
+libkdeedu4_CONTENTS="usr/bin/*-4.dll usr/share/doc/"
 libkdeedu_devel_REQUIRES="libkdecore-devel libQtCore4-devel libQtGui4-devel libQtXml4-devel"
 libkdeedu_devel_CONTENTS="usr/include/ usr/lib/"
